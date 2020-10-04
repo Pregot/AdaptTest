@@ -8,6 +8,7 @@ public class CreateAccountTest extends BaseTest {
     HomePage objHomePage = new HomePage(driver);
     CreateAccountPage objCreateAccountPage = new CreateAccountPage(driver);
     WebDriverWait wait = new WebDriverWait(driver, 5);
+    List<String> listof;
 
     @Test
     public void createAccountAndCheckIfaUserCanLoginTest() throws InterruptedException {
