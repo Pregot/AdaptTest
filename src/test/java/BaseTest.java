@@ -6,6 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public abstract class BaseTest {
     protected static WebDriver driver;
+    private Base
 
     @BeforeClass
     public static void setup() {
@@ -13,6 +14,7 @@ public abstract class BaseTest {
         driver = new ChromeDriver();
         driver.get("https://sportmaster.dk/");
         driver.manage().window().maximize();
+        
     }
 
     @AfterClass
